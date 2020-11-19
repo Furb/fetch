@@ -1,5 +1,5 @@
-
-
+//finding the root element
+const app = document.getElementById('root');
 
 //the url is a refrence to our json file with content
 let url = 'js/movies.json';
@@ -13,13 +13,17 @@ fetch(url)
     })
     //then we can work with the JSON data
     .then(data => {
-        // We iterate through all the objects
-        data.forEach(movie => {
+        let moviebox = '<h2>Movies</h2>';
+        data.forEach(function (movie) {
 
-        	console.log(movie.title);
+        	moviebox += `
 
-            const movieBox = document.getElementById('title');
-            movieBox.innerHTML = movie.title;
+        	<div class="moviebox">
+        		<h4 class="title">${movie.title}</h4>
+        	</div>
+
+        	`;
+
 
         })
     })
