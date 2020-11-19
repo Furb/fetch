@@ -1,8 +1,9 @@
 
 
 
-//the url is our endpoint and contains the data that we want to work with
+//the url is a refrence to our json file with content
 let url = 'js/movies.json';
+
 //TODO: copy/paste the link into a browser, so that you can see the data you are going to work with
 //The endpoint is passed into the call of the fetch function. The call of the fetch returns a promise
 fetch(url)
@@ -14,8 +15,6 @@ fetch(url)
     .then(data => {
         // We iterate through all the objects
         data.forEach(movie => {
-            //Create a div with a card class
-            console.log(movie.title);
 
             const moviebox = document.createElement('div');
             moviebox.setAttribute('class', 'moviebox');
