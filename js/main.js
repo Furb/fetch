@@ -15,6 +15,7 @@ fetch(url)
          data.forEach(movie => {
 
         	console.log(movie.title);
+            document.getElementById("title").innerHTML += movie.title;
 
 
         })
