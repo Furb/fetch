@@ -6,31 +6,31 @@
 	},
 
 	{
-		"title": "Up",
+		"Title": "Up",
 		"YouTubeId": "ORFWdXl_zJ4",
 		"API": "http://www.omdbapi.com/?t=Up&apikey=dab96338"
 	},
 
   	 {
-		"title": "Lord of the Rings",
+		"Title": "Lord of the Rings",
 		"YouTubeID": "V75dMMIW2B4 ",
 		"API": "http://www.omdbapi.com/?t=Lord+of+the+rings&apikey=dab96338"
 	},
 
   	 {
-  		"title": "The princess bride",
+  		"Title": "The princess bride",
 		"YouTubeId": "WNNUcHRiPS8",
 		"API": "http://www.omdbapi.com/?t=The+princess+bride&apikey=dab96338"
 	},
 
 	 {
-		"title": "Alice in Wonderland",
+		"Title": "Alice in Wonderland",
 		"YouTubeId": "P_IVeP3i7B0",
 		"API": "http://www.omdbapi.com/?t=Alice+in+wonderland&apikey=dab96338"
 	},
 
 	 {
-		"title": "Indiana Jones",
+		"Title": "Indiana Jones",
 		"YouTubeId": "v=Rh_BJXG1-44",
 		"API": "http://www.omdbapi.com/?t=Indiana+jones&apikey=dab96338"
 	}

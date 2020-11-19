@@ -16,8 +16,7 @@ fetch(url)
         data.forEach(movie => {
             //Create a div with a card class
             console.log(movie.title);
-            document.getElementById("title").innerHTML = movie.title;
-            document.getElementById("year").innerHTML = movie.year;
+            document.getElementById("title").innerHTML += movie.title;
 
         })
     })
