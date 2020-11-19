@@ -16,11 +16,8 @@ fetch(url)
         // We iterate through all the objects
         data.forEach(movie => {
 
-            const moviebox = document.createElement('div');
-            moviebox.setAttribute('class', 'moviebox');
-
-
-            document.getElementById('h4', 'title').innerHTML += movie.title;
+            const movieBox = document.getElementById('title');
+            movieBox.document.innerHTML = movie.title;
 
         })
     })
