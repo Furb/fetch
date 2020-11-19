@@ -1,5 +1,4 @@
-{
-"movies": [
+[
 	{
 		"title": "Willow",
 		"YouTubeId": "v=uzn2izehkno",
@@ -37,5 +36,3 @@
 	}
 
 ]
-
-}
