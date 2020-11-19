@@ -20,7 +20,7 @@ fetch(url)
             moviebox.setAttribute('class', 'moviebox');
 
 
-            document.getElementById("title").innerHTML += movie.title;
+            document.getElementById('h4', 'title').innerHTML += movie.title;
 
         })
     })
