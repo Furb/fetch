@@ -12,9 +12,9 @@ fetch(url)
     //then we can work with the JSON data
     .then(data => {
 
-        data.forEach(function (movie) {
+         data.forEach(movie => {
 
-        	console.log(data);
+        	console.log(movie.title);
 
 
         })
