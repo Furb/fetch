@@ -16,6 +16,8 @@ fetch(url)
         // We iterate through all the objects
         data.forEach(movie => {
 
+        	console.log(movie.title);
+
             const movieBox = document.getElementById('title');
             movieBox.innerHTML = movie.title;
 
