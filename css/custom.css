@@ -1,8 +1,16 @@
+
+
 body {
 	background: #007C89;
 	color: #C5DBF2;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.2;
+}
+
+.container {
+	width: 80vw;
+	max-width: 1120px;
+	margin: 0 auto;
 }
 
 .heading {
