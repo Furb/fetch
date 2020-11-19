@@ -1,0 +1,44 @@
+body {
+	background: #007C89;
+	color: #C5DBF2;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.2;
+}
+
+.heading {
+	text-align: center;
+}
+
+h1 {
+	color:  #FBCFBD;
+
+
+}
+
+#time {
+	margin-top: 5vh;
+}
+
+#time .box {
+
+	max-width: 40vw;
+	margin: 0 auto 2vh;
+	display: flex;
+	border: 2px solid #FBCFBD;
+	padding: 0.8em;
+
+}
+
+#time .box h4 {
+
+	border-right: 2px solid #FBCFBD;
+	padding-right: 0.8em;
+
+}
+
+#time .box p {
+
+	
+	padding-left: 0.8em;
+
+}
