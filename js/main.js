@@ -17,7 +17,7 @@ fetch(url)
         data.forEach(movie => {
 
             const movieBox = document.getElementById('title');
-            movieBox.document.innerHTML = movie.title;
+            movieBox.innerHTML = movie.title;
 
         })
     })
