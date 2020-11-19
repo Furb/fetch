@@ -17,6 +17,7 @@ fetch(url)
             //Create a div with a card class
             console.log(movie.title);
             document.getElementById("title").innerHTML = movie.title;
+            document.getElementById("year").innerHTML = movie.year;
 
         })
     })
