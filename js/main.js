@@ -12,13 +12,27 @@ fetch(url)
     //then we can work with the JSON data
     .then(data => {
 
+        let output = '<h2>List of adventure movies</h2>';
+
          data.forEach(movie => {
 
-        	console.log(movie);
-            document.getElementById("title").innerHTML += movie.title;
 
 
-        })
+           output += `
+              <div class="movieBox">
+              <h4>
+              ${movie.title}
+              </h4>
+              <img src=${movie.poster} alt="">
+              </div>
+          `;
+        });
+
+
+
+        document.getElementById('movie').innerHTML = output;
+
+
     })
     .catch(err => {
         // Do something for an error here

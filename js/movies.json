@@ -1,36 +1,42 @@
 [
 	{
 		"title": "Willow",
+		"poster": "https://m.media-amazon.com/images/M/MV5BZWIyMTA2M2ItOGI5MC00OTY0LWFmZTItN2NkOWQ0MGQ5NDkyL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 		"YouTubeId": "v=uzn2izehkno",
 		"API": "http://www.omdbapi.com/?t=Willow&apikey=dab96338"
 	},
 
 	{
 		"title": "Up",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg",
 		"YouTubeId": "ORFWdXl_zJ4",
 		"API": "http://www.omdbapi.com/?t=Up&apikey=dab96338"
 	},
 
   	 {
 		"title": "Lord of the Rings",
+		"poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
 		"YouTubeID": "V75dMMIW2B4 ",
 		"API": "http://www.omdbapi.com/?t=Lord+of+the+rings&apikey=dab96338"
 	},
 
   	 {
   		"title": "The princess bride",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMGM4M2Q5N2MtNThkZS00NTc1LTk1NTItNWEyZjJjNDRmNDk5XkEyXkFqcGdeQXVyMjA0MDQ0Mjc@._V1_SX300.jpg",
 		"YouTubeId": "WNNUcHRiPS8",
 		"API": "http://www.omdbapi.com/?t=The+princess+bride&apikey=dab96338"
 	},
 
 	 {
 		"title": "Alice in Wonderland",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SX300.jpg",
 		"YouTubeId": "P_IVeP3i7B0",
 		"API": "http://www.omdbapi.com/?t=Alice+in+wonderland&apikey=dab96338"
 	},
 
 	 {
 		"title": "Indiana Jones",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
 		"YouTubeId": "v=Rh_BJXG1-44",
 		"API": "http://www.omdbapi.com/?t=Indiana+jones&apikey=dab96338"
 	}
