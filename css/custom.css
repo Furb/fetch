@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 body {
 	background: #007C89;
@@ -38,11 +38,7 @@ h2 {
 #movielist {
 	margin-top: 15vh;
 	text-align: center;
-}
 
-#movie {
-
-}
 
 .movieBox {
 	display: flex;

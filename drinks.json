@@ -1,0 +1,10 @@
+[
+{
+  "https://the-cocktail-db.p.rapidapi.com/popular.php", {
+    "method": "GET",
+    "headers": {
+      "x-rapidapi-host": "the-cocktail-db.p.rapidapi.com",
+      "x-rapidapi-key": "c7871e7be1msh691ba867edc1402p1318acjsndad59069cea6"
+    }
+  }
+]

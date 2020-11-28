@@ -1,6 +1,6 @@
 
-
-fetch('js/movies.json')
+let url = ('js/movies.json')
+fetch(url)
 
     .then(response => {
         return response.json();
@@ -12,9 +12,8 @@ fetch('js/movies.json')
 
          data.forEach(movie => {
 
+              output += `
 
-
-           output += `
               <div class="movieBox">
               <h4>
               ${movie.title}
@@ -26,7 +25,7 @@ fetch('js/movies.json')
           `;
         });
 
-        document.getElementById('movie').innerHTML = output;
+        document.getElementById('movies').innerHTML = output;
 
 
     })
@@ -36,15 +35,26 @@ fetch('js/movies.json')
     })
 
 
-//singleMovie
+document.getElementById('btn').addEventListener('click', drinkThis);
 
+      function drinkThis () {
+      fetch('drinks.json')
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data){
+        let drinkHtml = '';
+        data.forEach(drink =>{
+          drinkHtml += `
 
+          <div class="movieBox">
+          <h4>
+          ${drink.title}
+          </h4>
+          </div>
+      `;
+        })
 
-fetch('http://www.omdbapi.com/?t=Willow&apikey=dab96338')
-  .then(response => response.json())
-  .then(data => {
-
-    console.log(data)
-
-    document.getElementById('movieTitle').innerHTML = movie.title;
-  });
+        document.getElementById('drinks').innerHTML = drinkHtml;
+      })
+    }
